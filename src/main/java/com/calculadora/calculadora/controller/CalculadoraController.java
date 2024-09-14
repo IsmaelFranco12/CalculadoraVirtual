@@ -14,7 +14,7 @@ public class CalculadoraController {
     private CalculadoraService
     calculadoraService;
 
-    @GetMapping("/sumar")
+    @GetMapping("/sumaremos")
     public double sumar(@RequestParam double num1, @RequestParam double num2){
         return
         calculadoraService.sumar(num1, num2);
